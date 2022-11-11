@@ -5,8 +5,8 @@ import org.bukkit.enchantments.Enchantment;
 import org.bukkit.enchantments.EnchantmentTarget;
 import org.bukkit.inventory.ItemStack;
 
-public class TeleportationArrow extends Enchantment {
-    public TeleportationArrow(NamespacedKey key) {
+public class TeleportationEnchantment extends Enchantment {
+    public TeleportationEnchantment(NamespacedKey key) {
         super(key);
     }
 
@@ -17,7 +17,7 @@ public class TeleportationArrow extends Enchantment {
 
     @Override
     public String getName() {
-        return "TELEPORTATION_ARROW";
+        return "TELEPORTATION";
     }
 
     @Override

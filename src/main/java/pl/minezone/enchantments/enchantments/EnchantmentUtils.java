@@ -8,9 +8,9 @@ import java.util.ArrayList;
 import java.util.HashMap;
 
 public class EnchantmentUtils {
-    public static final ExplosiveArrow EXPLOSIVE_ARROW = new ExplosiveArrow(NamespacedKey.minecraft("explosive_arrow"));
+    public static final ExplosionEnchantment EXPLOSIVE_ARROW = new ExplosionEnchantment(NamespacedKey.minecraft("explosions"));
 
-    public static final TeleportationArrow TELEPORTATION_ARROW = new TeleportationArrow(NamespacedKey.minecraft("teleportation_arrow"));
+    public static final TeleportationEnchantment TELEPORTATION_ARROW = new TeleportationEnchantment(NamespacedKey.minecraft("teleportation"));
 
     public static ArrayList<Enchantment> getEnchantments() {
         return enchantments;

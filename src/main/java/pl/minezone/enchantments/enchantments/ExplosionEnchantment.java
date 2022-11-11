@@ -5,9 +5,9 @@ import org.bukkit.enchantments.Enchantment;
 import org.bukkit.enchantments.EnchantmentTarget;
 import org.bukkit.inventory.ItemStack;
 
-public class ExplosiveArrow extends Enchantment {
+public class ExplosionEnchantment extends Enchantment {
 
-    public ExplosiveArrow(NamespacedKey key) {
+    public ExplosionEnchantment(NamespacedKey key) {
         super(key);
     }
 
@@ -18,7 +18,7 @@ public class ExplosiveArrow extends Enchantment {
 
     @Override
     public String getName() {
-        return "EXPLOSIVE_ARROW";
+        return "EXPLOSIONS";
     }
 
     @Override
