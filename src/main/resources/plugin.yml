@@ -1,0 +1,6 @@
+name: MZ-Enchantments
+version: '${project.version}'
+main: pl.minezone.enchantments.MyEnchantmentsMain
+api-version: 1.15
+authors: [ martinosso ]
+description: Introduces New Enchantments
