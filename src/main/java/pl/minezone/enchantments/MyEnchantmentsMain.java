@@ -1,9 +1,11 @@
 package pl.minezone.enchantments;
 
+import org.bukkit.Bukkit;
 import org.bukkit.plugin.java.JavaPlugin;
 import pl.minezone.enchantments.config.Config;
 import pl.minezone.enchantments.enchantments.EnchantmentUtils;
 import pl.minezone.enchantments.events.ArrowHit;
+import pl.minezone.enchantments.events.EntityDamage;
 
 public final class MyEnchantmentsMain extends JavaPlugin {
 
@@ -24,7 +26,7 @@ public final class MyEnchantmentsMain extends JavaPlugin {
     }
 
     private void registerEvents(){
-        this.getServer().getPluginManager().registerEvents(new ArrowHit(), this);
-
+        getServer().getPluginManager().registerEvents(new ArrowHit(), this);
+        getServer().getPluginManager().registerEvents(new EntityDamage(), this);
     }
 }
